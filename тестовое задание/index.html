@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Форма заявки</title>
+
+</head>
+<body>
+    <main>
+        
+        <div class="conteiner">
+            <h1 class="form-title">
+                Задать вопрос
+            </h1>
+            <form name="myForm">
+                <input type="text" pattern="[А-Яа-яЁё -]+" required id="username" placeholder="Фамилия Имя Отчество"><br>
+                <input type="tel" pattern="[0-9 +-]+" required id="tel" placeholder="Телефон*"><br>
+                <input type="email" required id="email" placeholder="Email"><br> 
+                <input type="submit" id="button" value="ОТПРАВИТЬ ЗАПРОС"><br>
+            </form>
+        </div>
+    </main>
+    <script src="/main.js"></script>
+</body>
+</html>
